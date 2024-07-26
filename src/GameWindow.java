@@ -7,9 +7,9 @@ public class GameWindow extends JFrame {
     private static final int WIDTH = 555;
     private static final int HEIGHT = 507;
 
-    JButton btnStart, btnExit;
-    SettingWindow settingWindow;
-    Map map;
+    private JButton btnStart, btnExit;
+    private SettingWindow settingWindow;
+    private Map map;
 
     GameWindow(){
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
